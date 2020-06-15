@@ -1,0 +1,19 @@
+1. We want to store results from api in file "results.json".
+2. We don't want to create n threads for n cities. We would like to have
+predefined amount of threads(10) for collecting data. So if we have 1000 cities we want to
+process them in parallel with only 10 threads.
+3.Put a list of cities into the file  and read it with generator.
+
+
+
+Processes
+1. Create a function that calculates Fibonacci and run it with multiprocessing.
+2. Use queue for multiprocessing to process.
+
+Common to know what is:
+Mutex
+Lock
+Rlock
+Pool
+Queue
+
